@@ -1,10 +1,11 @@
 {
-  "name": "jstransformer-supermarked",
-  "version": "0.1.0",
-  "description": "Supermarked support for JSTransformers.",
   "dependencies": {
+    "extend-shallow": "^2.0.1",
     "supermarked": "^2.0.0"
   },
+  "name": "jstransformer-supermarked",
+  "version": "0.1.1",
+  "description": "Supermarked support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -12,11 +13,16 @@
     "index.js"
   ],
   "devDependencies": {
-    "test-jstransformer": "^1.0.0"
+    "test-jstransformer": "^1.0.0",
+    "xo": "^0.17.1"
   },
   "scripts": {
+    "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage"
+    "posttest": "xo --space --no-semicolon index.js"
+  },
+  "engines": {
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
