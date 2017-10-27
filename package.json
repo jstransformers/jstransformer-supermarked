@@ -2,7 +2,7 @@
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "supermarked": "^2.0.0",
-    "snyk": "^1.25.0"
+    "snyk": "^1.46.0"
   },
   "name": "jstransformer-supermarked",
   "version": "0.1.1",
