@@ -1,7 +1,7 @@
 'use strict'
 
-var supermarked = require('supermarked')
-var extend = require('extend-shallow')
+const supermarked = require('supermarked')
+const extend = require('extend-shallow')
 
 exports.name = 'supermarked'
 exports.outputFormat = 'html'

@@ -5,6 +5,7 @@
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-supermarked/master.svg)](https://travis-ci.org/jstransformers/jstransformer-supermarked)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-supermarked/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-supermarked)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-supermarked/master.svg)](http://david-dm.org/jstransformers/jstransformer-supermarked)
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-supermarked.svg)](https://greenkeeper.io/)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-supermarked.svg)](https://www.npmjs.org/package/jstransformer-supermarked)
 
 ## Installation
