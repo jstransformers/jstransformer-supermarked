@@ -1,8 +1,7 @@
 {
   "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "supermarked": "^2.0.0",
-    "snyk": "^1.25.0"
+    "extend-shallow": "^3.0.2",
+    "supermarked": "^2.0.0"
   },
   "name": "jstransformer-supermarked",
   "version": "0.1.1",
@@ -15,14 +14,12 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.18.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
-    "posttest": "xo --space --no-semicolon index.js",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "posttest": "xo --space=2 --no-semicolon index.js"
   },
   "engines": {
     "node": ">=4"
@@ -35,6 +32,5 @@
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT",
-  "snyk": true
+  "license": "MIT"
 }
