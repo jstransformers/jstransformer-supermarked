@@ -1,7 +1,5 @@
 # jstransformer-supermarked
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-supermarked.svg)](https://greenkeeper.io/)
-
 [Supermarked](https://www.npmjs.com/package/supermarked) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-supermarked/master.svg)](https://travis-ci.org/jstransformers/jstransformer-supermarked)
